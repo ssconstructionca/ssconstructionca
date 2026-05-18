@@ -545,25 +545,40 @@
     }
 
     .contact-wrap {
-      padding: 2rem;
+      padding: 2.2rem;
       border-radius: var(--radius-xl);
     }
 
     .contact-grid {
       display: grid;
-      grid-template-columns: 1.05fr 0.95fr;
-      gap: 1.25rem;
-      align-items: start;
+      grid-template-columns: minmax(0, 1.08fr) minmax(340px, 0.92fr);
+      gap: 1.6rem;
+      align-items: stretch;
+    }
+
+    .contact-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-width: 0;
+    }
+
+    .contact-copy {
+      max-width: 760px;
     }
 
     .contact-cards {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 1rem;
-      margin-top: 1.35rem;
+      margin-top: 1.55rem;
     }
 
     .contact-card {
+      min-height: 116px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       padding: 1.15rem;
       border-radius: var(--radius-md);
       background: var(--surface-soft);
@@ -582,28 +597,40 @@
     .contact-card a {
       margin: 0;
       color: var(--text);
-      font-size: 1rem;
+      font-size: clamp(0.96rem, 0.9vw, 1rem);
+      line-height: 1.42;
       font-weight: 800;
-      word-break: break-word;
+      overflow-wrap: anywhere;
     }
 
     .contact-note {
-      padding: 1.4rem;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem;
       border-radius: 24px;
       background:
-        linear-gradient(135deg, rgba(255, 247, 237, 0.96), rgba(255, 251, 235, 0.96)),
+        linear-gradient(135deg, rgba(255, 247, 237, 0.97), rgba(255, 251, 235, 0.97)),
         url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1200") center center / cover;
       border: 1px solid #fed7aa;
     }
 
     .contact-note h3 {
-      margin: 0 0 0.55rem;
-      font-size: 1.25rem;
+      margin: 0 0 0.7rem;
+      font-size: clamp(1.35rem, 1.6vw, 1.75rem);
+      line-height: 1.12;
+      letter-spacing: -0.03em;
     }
 
     .contact-note p {
-      margin: 0 0 1rem;
+      margin: 0;
       color: #7c2d12;
+      font-size: 1.02rem;
+    }
+
+    .contact-note .contact-actions {
+      margin-top: 1.5rem;
     }
 
     .contact-actions .btn-secondary {
@@ -684,6 +711,10 @@
         grid-template-columns: 1fr;
       }
 
+      .contact-note {
+        min-height: auto;
+      }
+
       .services-grid,
       .faq-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -737,6 +768,10 @@
       .panel,
       .contact-wrap,
       .process-band {
+        padding: 1.35rem;
+      }
+
+      .contact-note {
         padding: 1.35rem;
       }
 
@@ -1064,19 +1099,21 @@
       <div class="container">
         <div class="contact-wrap">
           <div class="contact-grid">
-            <div>
-              <p class="eyebrow">Contact</p>
-              <h2 class="section-title" id="contact-title">Ready to talk about your renovation?</h2>
-              <p class="section-intro" style="margin-bottom: 0;">
-                Reach out with your project details, timeline, and location. For the fastest response, include photos or a short description of the work you want completed.
-              </p>
+            <div class="contact-main">
+              <div class="contact-copy">
+                <p class="eyebrow">Contact</p>
+                <h2 class="section-title" id="contact-title">Ready to talk about your renovation?</h2>
+                <p class="section-intro" style="margin-bottom: 0;">
+                  Reach out with your project details, timeline, and location. For the fastest response, include photos or a short description of the work you want completed.
+                </p>
+              </div>
 
               <div class="contact-cards">
                 <div class="contact-card">
                   <h3>Phone</h3>
                   <a href="tel:+14169998064">+1-416-999-8064</a>
                 </div>
-                <div class="contact-card">
+                <div class="contact-card contact-card-email">
                   <h3>Email</h3>
                   <a href="mailto:ssconstruction.ca@outlook.com">ssconstruction.ca@outlook.com</a>
                 </div>
