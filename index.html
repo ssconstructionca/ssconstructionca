@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S+S Construction | GTA Home Renovations & Remodeling</title>
+  <meta name="description" content="S+S Construction provides professional home renovations, bathroom remodeling, kitchen upgrades, basement finishing, flooring, drywall, tile, painting, and finish work across the Greater Toronto Area." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="S+S Construction | GTA Home Renovations & Remodeling" />
+  <meta property="og:description" content="Reliable GTA renovation services for kitchens, bathrooms, basements, flooring, tile, drywall, painting, and finishing work." />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:image" content="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1600" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GeneralContractor",
+    "name": "S+S Construction",
+    "description": "S+S Construction provides residential renovation, remodeling, bathroom, kitchen, basement, flooring, tile, drywall, painting, and finishing services across the Greater Toronto Area.",
+    "telephone": "+14169998064",
+    "email": "ssconstruction.ca@outlook.com",
+    "areaServed": [
+      "Toronto", "Greater Toronto Area", "Mississauga", "Brampton", "Vaughan", "Markham", "Richmond Hill", "Scarborough", "Etobicoke", "North York"
+    ],
+    "priceRange": "$$",
+    "sameAs": []
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-2: #111827;
+      --surface: #ffffff;
+      --surface-soft: #f8fafc;
+      --text: #0f172a;
+      --muted: #475569;
+      --line: #e2e8f0;
+      --accent: #c97722;
+      --accent-dark: #7c3a14;
+      --accent-soft: #fff7ed;
+      --shadow: 0 22px 55px rgba(15, 23, 42, 0.10);
+      --radius-xl: 30px;
+      --radius-lg: 22px;
+      --radius-md: 16px;
+      --container: min(1140px, calc(100% - 2rem));
+      --hero-image: url("https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=2200");
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .container {
+      width: var(--container);
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 4.75rem 0;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin: 0 0 0.85rem;
+      padding: 0.4rem 0.75rem;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin: 0 0 0.9rem;
+      font-size: clamp(1.9rem, 2vw + 1rem, 3rem);
+      line-height: 1.12;
+      letter-spacing: -0.04em;
+    }
+
+    .section-intro {
+      margin: 0 0 1.8rem;
+      max-width: 790px;
+      color: var(--muted);
+      font-size: 1.03rem;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 100svh;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 25% 22%, rgba(201, 119, 34, 0.22), transparent 34%),
+        linear-gradient(180deg, rgba(8, 15, 28, 0.18) 0%, rgba(8, 15, 28, 0.52) 46%, rgba(8, 15, 28, 0.95) 100%),
+        var(--hero-image) center center / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 36%;
+      background: linear-gradient(180deg, rgba(15, 23, 42, 0), #0f172a);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: 2.25rem 0 4rem;
+      color: #ffffff;
+    }
+
+    .brand-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      padding: 0.55rem 0.95rem;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.11);
+      backdrop-filter: blur(12px);
+      font-size: 0.93rem;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+    }
+
+    .brand-mark {
+      display: inline-grid;
+      place-items: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 14px 28px rgba(201, 119, 34, 0.28);
+    }
+
+    .hero h1 {
+      margin: 1.05rem 0 1rem;
+      max-width: 920px;
+      font-size: clamp(3.7rem, 8vw, 7.4rem);
+      line-height: 0.9;
+      letter-spacing: -0.08em;
+      text-shadow: 0 22px 60px rgba(0, 0, 0, 0.32);
+    }
+
+    .tagline {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(1.05rem, 1.45vw, 1.28rem);
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .hero-actions,
+    .contact-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      margin-top: 1.85rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 52px;
+      padding: 0.95rem 1.35rem;
+      border-radius: 999px;
+      font-weight: 800;
+      transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .btn:hover,
+    .btn:focus-visible {
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #ffffff;
+      box-shadow: 0 16px 30px rgba(201, 119, 34, 0.26);
+    }
+
+    .btn-secondary {
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      background: rgba(255, 255, 255, 0.09);
+      color: #ffffff;
+    }
+
+    .hero-highlights {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 2.5rem;
+    }
+
+    .hero-highlight {
+      padding: 1.08rem 1.12rem;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.10);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-highlight strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 1.08rem;
+    }
+
+    .hero-highlight span {
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 0.95rem;
+    }
+
+    main {
+      background: linear-gradient(180deg, #0f172a 0, #f8fafc 7rem, #f8fafc 100%);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 1.5rem;
+      align-items: stretch;
+    }
+
+    .panel,
+    .service-card,
+    .insight-card,
+    .faq-card,
+    .contact-wrap,
+    .gallery-shell {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .panel {
+      padding: 2rem;
+      border-radius: var(--radius-xl);
+    }
+
+    .panel p,
+    .service-card p,
+    .insight-card p,
+    .faq-card p {
+      color: var(--muted);
+    }
+
+    .check-list {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.6rem;
+    }
+
+    .check-item {
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 0.85rem;
+      align-items: start;
+    }
+
+    .check-dot {
+      width: 18px;
+      height: 18px;
+      margin-top: 0.24rem;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #f59e0b, #c97722);
+      box-shadow: 0 0 0 5px rgba(245, 158, 11, 0.13);
+    }
+
+    .check-item strong {
+      display: block;
+      margin-bottom: 0.15rem;
+      color: var(--text);
+      font-size: 1rem;
+    }
+
+    .about-image {
+      min-height: 100%;
+      overflow: hidden;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: #e2e8f0;
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .services-grid,
+    .insights-grid,
+    .faq-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .service-card,
+    .insight-card,
+    .faq-card {
+      padding: 1.45rem;
+      border-radius: var(--radius-lg);
+    }
+
+    .service-tag {
+      display: inline-block;
+      margin-bottom: 0.9rem;
+      padding: 0.38rem 0.68rem;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .service-card h3,
+    .insight-card h3,
+    .faq-card h3 {
+      margin: 0 0 0.55rem;
+      font-size: 1.12rem;
+      line-height: 1.25;
+    }
+
+    .service-card p,
+    .insight-card p,
+    .faq-card p {
+      margin: 0;
+      font-size: 0.97rem;
+    }
+
+    .process-band {
+      padding: 2rem;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #0f172a, #111827 72%, #2a1708);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 24px 50px rgba(2, 6, 23, 0.26);
+    }
+
+    .process-band h2 {
+      margin: 0 0 0.65rem;
+      font-size: clamp(1.8rem, 2vw + 1rem, 2.7rem);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+
+    .process-band > p {
+      margin: 0 0 1.5rem;
+      max-width: 750px;
+      color: rgba(255, 255, 255, 0.78);
+    }
+
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .process-card {
+      padding: 1.1rem;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .process-card strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-size: 1.05rem;
+    }
+
+    .process-card span {
+      color: rgba(255, 255, 255, 0.76);
+      font-size: 0.95rem;
+    }
+
+    .gallery-shell {
+      padding: 1rem;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
+    .gallery-toolbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+      padding: 0.75rem 0.75rem 1rem;
+    }
+
+    .gallery-toolbar p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .gallery-controls {
+      display: flex;
+      gap: 0.55rem;
+    }
+
+    .gallery-control {
+      width: 46px;
+      height: 46px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: #fff;
+      color: var(--text);
+      cursor: pointer;
+      font-size: 1.55rem;
+      line-height: 1;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .gallery-control:hover,
+    .gallery-control:focus-visible {
+      background: var(--accent-soft);
+      transform: translateY(-1px);
+    }
+
+    .gallery-track {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      border-radius: 24px;
+      padding: 0.35rem;
+      scrollbar-width: none;
+    }
+
+    .gallery-track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .project-slide {
+      flex: 0 0 78%;
+      margin: 0;
+      overflow: hidden;
+      border-radius: 24px;
+      background: #fff;
+      border: 1px solid var(--line);
+      scroll-snap-align: start;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    .image-button {
+      display: block;
+      width: 100%;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: zoom-in;
+      text-align: left;
+    }
+
+    .project-slide img {
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+      background: #e2e8f0;
+    }
+
+    .project-slide figcaption {
+      padding: 1rem 1.1rem 1.15rem;
+    }
+
+    .project-slide figcaption strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 1.1rem;
+    }
+
+    .project-slide figcaption span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .gallery-dots {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      padding: 1rem 0 0.4rem;
+    }
+
+    .gallery-dot {
+      width: 10px;
+      height: 10px;
+      border: 0;
+      border-radius: 999px;
+      background: #cbd5e1;
+      cursor: pointer;
+      transition: width 0.2s ease, background 0.2s ease;
+    }
+
+    .gallery-dot.is-active {
+      width: 32px;
+      background: var(--accent);
+    }
+
+    .insights-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .contact-wrap {
+      padding: 2rem;
+      border-radius: var(--radius-xl);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 1.25rem;
+      align-items: start;
+    }
+
+    .contact-cards {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.35rem;
+    }
+
+    .contact-card {
+      padding: 1.15rem;
+      border-radius: var(--radius-md);
+      background: var(--surface-soft);
+      border: 1px solid var(--line);
+    }
+
+    .contact-card h3 {
+      margin: 0 0 0.45rem;
+      color: #64748b;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .contact-card p,
+    .contact-card a {
+      margin: 0;
+      color: var(--text);
+      font-size: 1rem;
+      font-weight: 800;
+      word-break: break-word;
+    }
+
+    .contact-note {
+      padding: 1.4rem;
+      border-radius: 24px;
+      background:
+        linear-gradient(135deg, rgba(255, 247, 237, 0.96), rgba(255, 251, 235, 0.96)),
+        url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1200") center center / cover;
+      border: 1px solid #fed7aa;
+    }
+
+    .contact-note h3 {
+      margin: 0 0 0.55rem;
+      font-size: 1.25rem;
+    }
+
+    .contact-note p {
+      margin: 0 0 1rem;
+      color: #7c2d12;
+    }
+
+    .contact-actions .btn-secondary {
+      border-color: rgba(154, 52, 18, 0.18);
+      color: var(--accent-dark);
+      background: rgba(255, 255, 255, 0.72);
+    }
+
+    .footer {
+      padding: 1.4rem 0 2.1rem;
+      color: #94a3b8;
+      background: #f8fafc;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 0.8rem;
+      font-size: 0.95rem;
+    }
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background: rgba(2, 6, 23, 0.86);
+    }
+
+    .lightbox.is-open {
+      display: flex;
+    }
+
+    .lightbox-content {
+      width: min(1050px, 100%);
+      border-radius: 24px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 30px 90px rgba(0, 0, 0, 0.35);
+    }
+
+    .lightbox-content img {
+      width: 100%;
+      max-height: 76vh;
+      object-fit: cover;
+    }
+
+    .lightbox-caption {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .lightbox-caption strong {
+      font-size: 1.05rem;
+    }
+
+    .lightbox-close {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.65rem 0.95rem;
+      background: var(--bg);
+      color: #fff;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    @media (max-width: 960px) {
+      .about-grid,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .services-grid,
+      .faq-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .process-grid,
+      .insights-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .project-slide {
+        flex-basis: 86%;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .section {
+        padding: 3.9rem 0;
+      }
+
+      .hero {
+        min-height: 92svh;
+      }
+
+      .hero-content {
+        padding-bottom: 3rem;
+      }
+
+      .hero h1 {
+        font-size: clamp(3rem, 18vw, 4.6rem);
+      }
+
+      .hero-actions,
+      .contact-actions {
+        display: grid;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .hero-highlights,
+      .services-grid,
+      .process-grid,
+      .insights-grid,
+      .faq-grid,
+      .contact-cards {
+        grid-template-columns: 1fr;
+      }
+
+      .panel,
+      .contact-wrap,
+      .process-band {
+        padding: 1.35rem;
+      }
+
+      .gallery-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .gallery-controls {
+        width: 100%;
+      }
+
+      .gallery-control {
+        flex: 1;
+        border-radius: 999px;
+      }
+
+      .project-slide {
+        flex-basis: 92%;
+      }
+
+      .project-slide img {
+        height: 380px;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-content">
+      <div class="brand-pill"><span class="brand-mark">S+</span> S+S Construction · GTA Renovations</div>
+      <h1>S+S Construction</h1>
+      <p class="tagline">
+        Professional home renovations, remodeling, and finishing work across the Greater Toronto Area.
+        Built with clean workmanship, clear communication, and dependable project care.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:+14169998064" aria-label="Call S+S Construction at 416 999 8064">Call +1-416-999-8064</a>
+        <a class="btn btn-secondary" href="mailto:ssconstruction.ca@outlook.com" aria-label="Email S+S Construction">Email S+S Construction</a>
+      </div>
+
+      <div class="hero-highlights" aria-label="Company highlights">
+        <div class="hero-highlight">
+          <strong>GTA Service Area</strong>
+          <span>Serving homeowners across Toronto and the surrounding Greater Toronto Area.</span>
+        </div>
+        <div class="hero-highlight">
+          <strong>Renovation Focused</strong>
+          <span>Kitchens, bathrooms, basements, flooring, tile, drywall, painting, and finish work.</span>
+        </div>
+        <div class="hero-highlight">
+          <strong>Free Project Discussions</strong>
+          <span>Start with a simple conversation about your scope, timeline, and goals.</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="panel">
+          <p class="eyebrow">About S+S Construction</p>
+          <h2 class="section-title" id="about-title">Renovation work that looks clean, feels solid, and is built to last.</h2>
+          <p>
+            S+S Construction is a GTA-based renovation and construction company helping homeowners improve
+            their spaces with practical planning, careful preparation, and quality finishing. From room upgrades
+            and basement improvements to bathroom, kitchen, flooring, tile, drywall, painting, and trim work,
+            every project is approached with respect for your home and attention to detail.
+          </p>
+
+          <div class="check-list">
+            <div class="check-item">
+              <div class="check-dot" aria-hidden="true"></div>
+              <div>
+                <strong>Clear communication from start to finish</strong>
+                You get straightforward updates about scope, scheduling, materials, and next steps.
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="check-dot" aria-hidden="true"></div>
+              <div>
+                <strong>Clean workmanship and careful finishing</strong>
+                Prep work, installation, and final details are handled with a professional eye.
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="check-dot" aria-hidden="true"></div>
+              <div>
+                <strong>Local, responsive GTA service</strong>
+                Reliable renovation support for clients in Toronto, Mississauga, Brampton, Vaughan, Markham, and nearby communities.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img
+            src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1400"
+            alt="Finished kitchen and interior renovation with clean neutral finishes"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="services-title">
+      <div class="container">
+        <p class="eyebrow">Renovation Services</p>
+        <h2 class="section-title" id="services-title">Home improvement services for clean, modern, functional spaces.</h2>
+        <p class="section-intro">
+          S+S Construction supports residential renovation projects of different sizes, from focused room updates
+          to larger interior upgrades. Contact the team to discuss your scope, timeline, and property location.
+        </p>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-tag">Kitchen</div>
+            <h3>Kitchen Renovations</h3>
+            <p>Cabinetry updates, backsplash installation, layout improvements, flooring, trim, and finishing details.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-tag">Bathroom</div>
+            <h3>Bathroom Remodeling</h3>
+            <p>Tile, vanities, shower surrounds, fixture upgrades, waterproofing coordination, and clean final finishes.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-tag">Basement</div>
+            <h3>Basement Improvements</h3>
+            <p>Practical basement upgrades for living space, storage, rental potential, family use, and improved comfort.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-tag">Interior</div>
+            <h3>Drywall, Painting & Repairs</h3>
+            <p>Wall repairs, drywall work, paint refreshes, patching, prep work, and finishing touch-ups.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-tag">Finish Work</div>
+            <h3>Flooring, Tile & Trim</h3>
+            <p>Detail-oriented flooring, tile, baseboards, casing, doors, transitions, and final finish carpentry.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="service-tag">General</div>
+            <h3>Home Upgrade Projects</h3>
+            <p>Reliable help for maintenance items, refresh projects, rental property improvements, and home upgrade punch lists.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="process-title">
+      <div class="container">
+        <div class="process-band">
+          <h2 id="process-title">A straightforward renovation process.</h2>
+          <p>
+            Good renovation work starts with clear expectations. S+S Construction keeps the process simple so homeowners know what is happening, what comes next, and how to prepare.
+          </p>
+
+          <div class="process-grid">
+            <div class="process-card">
+              <strong>1. Discuss the project</strong>
+              <span>Share your goals, photos, address area, timing, and the type of renovation you need.</span>
+            </div>
+            <div class="process-card">
+              <strong>2. Review the scope</strong>
+              <span>Walk through the work required, materials, access, prep, and any project considerations.</span>
+            </div>
+            <div class="process-card">
+              <strong>3. Complete the work</strong>
+              <span>The team focuses on clean workmanship, careful installation, and practical communication.</span>
+            </div>
+            <div class="process-card">
+              <strong>4. Final details</strong>
+              <span>Review the finished work together and address details before the project is wrapped up.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="container">
+        <p class="eyebrow">Renovation Gallery</p>
+        <h2 class="section-title" id="gallery-title">Finished renovation inspiration.</h2>
+        <p class="section-intro">
+          Browse natural, finished-interior renovation inspiration that is closer to the original look: clean kitchens, bathrooms, living spaces, bedrooms, flooring, trim, and practical home upgrades.
+        </p>
+
+        <div class="gallery-shell" data-gallery>
+          <div class="gallery-toolbar">
+            <p>
+              <strong>Finished renovation slideshow</strong><br />
+              Click any image to open a larger view.
+            </p>
+            <div class="gallery-controls" aria-label="Gallery controls">
+              <button class="gallery-control" type="button" data-gallery-prev aria-label="Previous gallery image">‹</button>
+              <button class="gallery-control" type="button" data-gallery-next aria-label="Next gallery image">›</button>
+            </div>
+          </div>
+
+          <div class="gallery-track" data-gallery-track tabindex="0" aria-label="Renovation photo carousel">
+            <figure class="project-slide is-active" aria-label="Gallery image 1 of 8">
+              <button class="image-button" type="button" data-lightbox="0" aria-label="Open larger view of Kitchen renovation">
+                <img src="https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Finished kitchen renovation with white cabinetry, counters, and clean modern finishes" loading="lazy" />
+              </button>
+              <figcaption><strong>Kitchen renovation</strong><span>Bright cabinetry, clean counters, practical layout updates, and a finished look that feels lived-in.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 2 of 8">
+              <button class="image-button" type="button" data-lightbox="1" aria-label="Open larger view of Bathroom remodeling">
+                <img src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Finished bathroom renovation with white surfaces and modern fixtures" loading="lazy" />
+              </button>
+              <figcaption><strong>Bathroom remodeling</strong><span>Simple bathroom inspiration with clean tile, updated fixtures, and practical everyday finishes.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 3 of 8">
+              <button class="image-button" type="button" data-lightbox="2" aria-label="Open larger view of Living room refresh">
+                <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Neutral living room renovation with updated flooring, trim, and wall finishes" loading="lazy" />
+              </button>
+              <figcaption><strong>Living room refresh</strong><span>Neutral room updates that feel close to real home projects: flooring, paint, trim, and finishing.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 4 of 8">
+              <button class="image-button" type="button" data-lightbox="3" aria-label="Open larger view of Bedroom finish work">
+                <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Finished bedroom with neutral walls, updated flooring, and clean trim details" loading="lazy" />
+              </button>
+              <figcaption><strong>Bedroom finish work</strong><span>Calm, finished bedroom inspiration for paint, trim, flooring, and interior refresh projects.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 5 of 8">
+              <button class="image-button" type="button" data-lightbox="4" aria-label="Open larger view of Vanity and fixture updates">
+                <img src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Bathroom vanity area with updated sink, mirror, and clean wall finishes" loading="lazy" />
+              </button>
+              <figcaption><strong>Vanity and fixture updates</strong><span>A natural bathroom detail look for vanity upgrades, fixture changes, mirrors, and finishing details.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 6 of 8">
+              <button class="image-button" type="button" data-lightbox="5" aria-label="Open larger view of Flooring and trim details">
+                <img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Renovated home interior with updated flooring, baseboards, and clean finishes" loading="lazy" />
+              </button>
+              <figcaption><strong>Flooring and trim details</strong><span>Finished interior details that help a renovation look complete without feeling over-staged.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 7 of 8">
+              <button class="image-button" type="button" data-lightbox="6" aria-label="Open larger view of Interior finishing">
+                <img src="https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Finished residential interior with neutral paint, trim, and modern home details" loading="lazy" />
+              </button>
+              <figcaption><strong>Interior finishing</strong><span>Simple interior finish inspiration for painting, baseboards, doors, transitions, and touch-ups.</span></figcaption>
+            </figure>
+
+            <figure class="project-slide" aria-label="Gallery image 8 of 8">
+              <button class="image-button" type="button" data-lightbox="7" aria-label="Open larger view of Open concept updates">
+                <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Open concept renovated interior with neutral colours and natural light" loading="lazy" />
+              </button>
+              <figcaption><strong>Open concept updates</strong><span>Natural open-space inspiration for layout improvements, lighting, flooring, and final details.</span></figcaption>
+            </figure>
+          </div>
+          <div class="gallery-dots" data-gallery-dots aria-label="Gallery shortcuts"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="seo-title">
+      <div class="container">
+        <p class="eyebrow">GTA Renovation Insights</p>
+        <h2 class="section-title" id="seo-title">Helpful renovation guidance for homeowners in the Greater Toronto Area.</h2>
+        <p class="section-intro">
+          Planning a renovation in the GTA can feel overwhelming, but the right contractor helps turn your goals into a clear scope.
+          These practical tips help visitors understand common renovation decisions before they call.
+        </p>
+
+        <div class="insights-grid">
+          <article class="insight-card">
+            <h3>How to prepare for a home renovation estimate</h3>
+            <p>Before requesting a quote, gather photos, room measurements, inspiration images, and a list of priorities. Clear details help your contractor understand the scope and recommend practical next steps.</p>
+          </article>
+          <article class="insight-card">
+            <h3>Kitchen and bathroom renovations need careful sequencing</h3>
+            <p>Cabinetry, tile, plumbing fixtures, electrical items, ventilation, waterproofing, and finish details should be planned in the right order so the work moves efficiently and avoids unnecessary delays.</p>
+          </article>
+          <article class="insight-card">
+            <h3>Basement upgrades can add useful living space</h3>
+            <p>A basement renovation can improve comfort, storage, rental potential, or family living space. Planning should consider layout, moisture, lighting, flooring, and durable finishes.</p>
+          </article>
+          <article class="insight-card">
+            <h3>Finish work makes a renovation feel complete</h3>
+            <p>Trim, doors, paint, caulking, flooring transitions, tile edges, and final touch-ups are the details that give a project a clean and professional result.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="faq-title">
+      <div class="container">
+        <p class="eyebrow">Questions</p>
+        <h2 class="section-title" id="faq-title">Common questions before starting a renovation.</h2>
+        <div class="faq-grid">
+          <article class="faq-card">
+            <h3>What types of renovation projects do you handle?</h3>
+            <p>S+S Construction handles kitchen, bathroom, basement, drywall, flooring, tile, painting, repairs, trim, and general home improvement work.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Do you work across the GTA?</h3>
+            <p>Yes. The company serves Toronto and the surrounding Greater Toronto Area, including nearby communities depending on project scope and scheduling.</p>
+          </article>
+          <article class="faq-card">
+            <h3>How do I request a quote?</h3>
+            <p>Call +1-416-999-8064 or email ssconstruction.ca@outlook.com with your location, project details, photos, and preferred timeline.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-wrap">
+          <div class="contact-grid">
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2 class="section-title" id="contact-title">Ready to talk about your renovation?</h2>
+              <p class="section-intro" style="margin-bottom: 0;">
+                Reach out with your project details, timeline, and location. For the fastest response, include photos or a short description of the work you want completed.
+              </p>
+
+              <div class="contact-cards">
+                <div class="contact-card">
+                  <h3>Phone</h3>
+                  <a href="tel:+14169998064">+1-416-999-8064</a>
+                </div>
+                <div class="contact-card">
+                  <h3>Email</h3>
+                  <a href="mailto:ssconstruction.ca@outlook.com">ssconstruction.ca@outlook.com</a>
+                </div>
+                <div class="contact-card">
+                  <h3>Service Area</h3>
+                  <p>Greater Toronto Area, Ontario</p>
+                </div>
+                <div class="contact-card">
+                  <h3>Services</h3>
+                  <p>Renovations, remodeling, and finishing</p>
+                </div>
+              </div>
+            </div>
+
+            <aside class="contact-note">
+              <h3>Start with a simple project conversation.</h3>
+              <p>
+                Whether you are updating a bathroom, improving a kitchen, finishing a basement, or refreshing an interior space, S+S Construction can review your goals and help you plan the next step.
+              </p>
+              <div class="contact-actions">
+                <a class="btn btn-primary" href="tel:+14169998064">Call Now</a>
+                <a class="btn btn-secondary" href="mailto:ssconstruction.ca@outlook.com">Send an Email</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> S+S Construction. Serving the Greater Toronto Area.</div>
+      <div>Home renovations · Bathroom remodeling · Kitchen upgrades · Basement improvements</div>
+    </div>
+  </footer>
+
+  <div class="lightbox" data-lightbox-modal aria-hidden="true" role="dialog" aria-label="Renovation photo viewer">
+    <div class="lightbox-content">
+      <img src="" alt="" data-lightbox-img />
+      <div class="lightbox-caption">
+        <strong data-lightbox-title>Renovation photo</strong>
+        <button class="lightbox-close" type="button" data-lightbox-close>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const gallery = document.querySelector("[data-gallery]");
+    const track = document.querySelector("[data-gallery-track]");
+    const slides = Array.from(document.querySelectorAll(".project-slide"));
+    const prevButton = document.querySelector("[data-gallery-prev]");
+    const nextButton = document.querySelector("[data-gallery-next]");
+    const dotsWrap = document.querySelector("[data-gallery-dots]");
+    let currentSlide = 0;
+
+    function goToSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+      track.scrollTo({
+        left: slides[currentSlide].offsetLeft - track.offsetLeft,
+        behavior: "smooth"
+      });
+      updateDots();
+    }
+
+    function updateDots() {
+      const dots = dotsWrap.querySelectorAll("button");
+      dots.forEach((dot, index) => dot.classList.toggle("is-active", index === currentSlide));
+      slides.forEach((slide, index) => slide.classList.toggle("is-active", index === currentSlide));
+    }
+
+    slides.forEach((slide, index) => {
+      const dot = document.createElement("button");
+      dot.className = "gallery-dot";
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Go to gallery image ${index + 1}`);
+      dot.addEventListener("click", () => goToSlide(index));
+      dotsWrap.appendChild(dot);
+    });
+
+    prevButton.addEventListener("click", () => goToSlide(currentSlide - 1));
+    nextButton.addEventListener("click", () => goToSlide(currentSlide + 1));
+    track.addEventListener("scroll", () => {
+      window.clearTimeout(track._scrollTimer);
+      track._scrollTimer = window.setTimeout(() => {
+        const trackLeft = track.scrollLeft;
+        currentSlide = slides.reduce((closestIndex, slide, index) => {
+          const currentDistance = Math.abs(slide.offsetLeft - track.offsetLeft - trackLeft);
+          const closestDistance = Math.abs(slides[closestIndex].offsetLeft - track.offsetLeft - trackLeft);
+          return currentDistance < closestDistance ? index : closestIndex;
+        }, 0);
+        updateDots();
+      }, 80);
+    });
+
+    updateDots();
+
+    const modal = document.querySelector("[data-lightbox-modal]");
+    const modalImg = document.querySelector("[data-lightbox-img]");
+    const modalTitle = document.querySelector("[data-lightbox-title]");
+    const modalClose = document.querySelector("[data-lightbox-close]");
+
+    function closeLightbox() {
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+      modalImg.src = "";
+    }
+
+    document.querySelectorAll("[data-lightbox]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const image = button.querySelector("img");
+        const title = button.closest("figure").querySelector("figcaption strong").textContent;
+        modalImg.src = image.src;
+        modalImg.alt = image.alt;
+        modalTitle.textContent = title;
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    modalClose.addEventListener("click", closeLightbox);
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) closeLightbox();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeLightbox();
+      if (event.key === "ArrowRight" && modal.classList.contains("is-open")) goToSlide(currentSlide + 1);
+      if (event.key === "ArrowLeft" && modal.classList.contains("is-open")) goToSlide(currentSlide - 1);
+    });
+  </script>
+</body>
+</html>

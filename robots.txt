@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Add a sitemap URL here later if you connect a custom domain and create one.
+# Sitemap: https://ssconstruction.ca/sitemap.xml
